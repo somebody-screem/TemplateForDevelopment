@@ -1,0 +1,12 @@
+# ローカル設定・一時ファイル
+.env
+.env.*
+!.env.example
+!.env.*.example
+/.tmp/
+*.log
+.DS_Store
+Thumbs.db
+
+# 言語固有の生成物は、技術スタックを決めたときに追加する。
+# experiments/ は共有する試作記録も含むので、一括除外しない。
